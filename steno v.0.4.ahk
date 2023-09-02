@@ -6,11 +6,11 @@
     if (Abbreviation(Clipboard) = "fail") {
         Send {Space}^{v}
     }
-		else {
-        Clipboard := Abbreviation(Clipboard)
-        Sleep 5
-        Send ^{v}
-		}
+	else {
+		Clipboard := Abbreviation(Clipboard)
+		Sleep 5
+		Send ^{v}
+	}
     Clipboard := prev_clip
     return
 }
