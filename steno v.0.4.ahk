@@ -1,12 +1,16 @@
-﻿`;::
+`;::
 {
     prev_clip := Clipboard
+    Clipboard := ""
     Send +^{Left}^c+{Left}
-    if (Abbreviation(Clipboard) != "fail") {
-        Clipboard := Abbreviation(Clipboard)
+    if (Abbreviation(Clipboard) = "fail") {
+        Send {Space}^{v}
     }
-    Sleep 5
-    Send ^{v}
+		else {
+        Clipboard := Abbreviation(Clipboard)
+        Sleep 5
+        Send ^{v}
+		}
     Clipboard := prev_clip
     return
 }
