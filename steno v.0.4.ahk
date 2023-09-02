@@ -1,4 +1,4 @@
-`;::
+`;:: ;Abb key
 {
     prev_clip := Clipboard
     Clipboard := ""
@@ -11,8 +11,15 @@
 		Sleep 5
 		Send ^{v}
 	}
-    Clipboard := prev_clip
+    Clipboard := % prev_clip
     return
+}
+space:: ;doubleSpace
+{
+    prev_clip := Clipboard
+    Clipboard := "  "
+    Send {Space}^{v}
+    Clipboard := % prev_clip
 }
 
 esc:: 
