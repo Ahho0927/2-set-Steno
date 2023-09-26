@@ -34,37 +34,46 @@ Abbreviation(input) {
   ; if (input = "") {
   ;     Clipboard := ""
   ; }
-    if (input = "ㅈㄱㅎㄴ") {
-        return "존경하는 국민 여러분, "
+    if (input = "ㅈㄱ") {
+        return "존경"
     }
-    if (input = "ㅇㄴ가") {
+    if (input = "ㅎㄴ") {
+        return "하는"
+    }
+    if (input = "ㄱㅁ") {
+        return "국민"
+    }
+    if (input = "ㄱ며") {
+        return "국민 여러분"
+    }
+    if (input = "ㅇㄴㅎ십ㅂㄱ") {
         return "안녕하십니까. "
     }
     if (input = "ㅈ") {
         return "저는 "
     }
-    if (input = "ㅇㄷ") {
+    if (input = "ㅣㅂ") {
         return "입니다. "
     }
-    if (input = "ㅎㄷ") {
+    if (input = "ㅎㅂ") {
         return "합니다. "
     }
-    if (input = "ㅅㄷ") {
+    if (input = "ㅅㅂ") {
         return "습니다. "
     }
-    if (input = "ㄱㄷ") {
+    if (input = "ㄱㅂ") {
         return "겠습니다. "
     }
-    if (input = "ㅂㄷ") {
+    if (input = "ㅂ") {
         return "ㅂ니다. "
     }
-    if (input = "ㄹㅎㄷ" || input = "ㅀㄷ") {
+    if (input = "ㄺㅎㅂ" || input = "ㄹㄱㅎㅂ") {
         return "라고 합니다. "
     }
     if (input = "ㅇㄴ") {
         return "오늘 "
     }
-    if (input = "ㅂㄱㄷ") {
+    if (input = "ㅂㄱㅅㅂ") {
         return "반갑습니다. "
     }
     if (input = "잘") {
