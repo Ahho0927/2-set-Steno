@@ -1,0 +1,3 @@
+from hgtk import checker, letter
+
+text = input(
