@@ -1,6 +1,0 @@
-; fisrt : ᄀ ᄂ ᄃ ᄅ ᄆ ᄇ ᄉ ᄋ ᄌ ᄎ ᄏ ᄐ ᄑ ᄒ
-; middle : ᅡ ᅣ ᅥ ᅧ ᅩ ᅭ ᅮ ᅲ ᅳ ᅵ ᅢ ᅦ
-; last : ᆨ ᆩ ᆫ ᆬ ᆭ ᆮ ᆯ ᆰ ᆱ ᆲ ᆳ ᆴ ᆵ ᆶ ᆷ ᆸ ᆹ ᆺ ᆻ ᆼ ᆽ ᆾ ᆿ ᇀ ᇁ ᇂ
-
-; rome_f : g n d r m b s l j c k t p h
-; rome_m : a ya eo yeo o yo u yu eu i ae e yae ye
